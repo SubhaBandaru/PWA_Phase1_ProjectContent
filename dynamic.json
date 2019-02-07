@@ -1,0 +1,72 @@
+{
+	"profile":{
+		"img":"profile_pic.jpg",
+		"name":"B.Subha Sri Lakshmi",
+		"roll":"17A31B0502",
+		"institute":"Pragati Engineering College",
+		"place":"Kakinada"
+	},
+	"career":{
+	"cHead":"Career Objective",
+	"info":"To work in an environment where I can explore my Skills and Knowledge."
+	},
+	"education":[
+{
+	"Sno":"1",
+	"degree":"B.tech",
+	"institute":"Pragati Engineering College",
+	"yop":"2018"
+},
+{
+	"Sno":"2",
+	"degree":"Intermediate",
+	"institute":"Aditya Junior College",
+	"yop":"2017"
+},
+{
+	"Sno":"3",
+	"degree":"Tenth",
+	"institute":"St.Joseph's Convent School",
+	"yop":"2015"
+}
+],
+	"languages":[
+{
+	"lang":"English"
+},
+{
+	"lang":"Telugu"
+},
+{
+	"lang":"Hindi"
+}
+],
+	"skills":[
+{
+	"sk":"C"
+},
+{
+	"sk":"C++"
+},
+{
+	"sk":"Python"
+},
+{
+	"sk":"Data Structures"
+}
+],
+	"ach":[
+{
+	"ws":"Machine Learning"
+},
+{
+	"ws":"Big Data Analytics"
+},
+{
+	"ws":"Gaming"
+}
+],
+	"internship":{
+"in":"Attended internship at CDAC, Pune."
+}
+}

@@ -1,0 +1,92 @@
+/*Desktop View*/
+body{
+	background: pink;
+}
+#Main{
+	background: lightgreen;
+	margin: 3%;
+	display: flex;
+	justify-content: space-around;
+	box-shadow: 3px 3px 3px 3px;
+}
+.leftdiv{
+	background: aqua;
+	margin: 4%;
+	border-radius: 5%;
+	text-align: center;
+	box-shadow: 3px 3px 3px 3px;
+	width: 30%;
+	height: 40%;
+}
+.rightdiv{
+	background: bisque;
+	margin: 4%;
+	border-radius: 5%;
+	box-shadow: 3px 3px 3px 3px;
+	width: 50%;
+	padding:3%;
+}
+img{
+	width:40%;
+	height: 35%;
+	margin: 3%;
+	border-radius: 4%;
+}
+/*Mobile View*/
+@media screen and (max-width: 480px) {
+body{
+	background: cyan;
+}
+#Main{
+	background: mediumspringgreen;
+	margin: 1%;
+	display: inline-block;
+	justify-content: space-around;
+}
+.leftdiv{
+	background: bisque;
+	margin: 2%;
+	border-radius: 5%;
+	text-align: center;
+	width: 96%;
+	height: 40%;
+	box-shadow: 1px 1px 1px 1px;
+}
+.rightdiv{
+	background: mistyrose;
+	margin: 2%;
+	border-radius: 5%;
+	box-shadow: 1px 1px 1px 1px;
+	width: 92%;
+	padding:2%;
+}
+}
+/*Tab View*/
+@media screen and (min-width: 481px) and (max-width: 580px){
+body{
+	background: aqua;
+}
+#Main{
+	background: bisque;
+	margin: 2%;
+	display: inline-block;
+	justify-content: space-around;
+}
+.leftdiv{
+	background: lavender;
+	margin: 3%;
+	border-radius: 5%;
+	width: 94%;
+	height: 40%;
+	text-align: center;
+	box-shadow: 1px 1px 1px 1px;
+}
+.rightdiv{
+	background: lightcyan;
+	margin: 3%;
+	border-radius: 5%;
+	box-shadow: 1px 1px 1px 1px;
+	width: 90%;
+	padding:2%;
+}
+}

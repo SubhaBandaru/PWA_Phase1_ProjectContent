@@ -1,0 +1,91 @@
+body{
+	background: pink;
+}
+.Main{
+	background: lightgreen;
+	margin: 3%;
+	display: flex;
+	justify-content: space-around;
+	box-shadow: 2px 2px 2px 2px;
+}
+.left{
+	background: aqua;
+	margin: 4%;
+	border-radius: 5%;
+	text-align: center;
+	box-shadow: 2px 2px 2px 2px;
+	width: 30%;
+	height: 40%;
+}
+.right{
+	background: bisque;
+	margin: 4%;
+	border-radius: 5%;
+	box-shadow: 2px 2px 2px 2px;
+	width: 50%;
+	padding:3%;
+}
+img{
+	width:40%;
+	height: 35%;
+	margin: 3%;
+	border-radius: 4%;
+}
+/*Mobile View*/
+@media screen and (max-width: 480px) {
+body{
+	background: cyan;
+}
+.Main{
+	background: mediumspringgreen;
+	margin: 1%;
+	display: inline-block;
+	justify-content: space-around;
+}
+.left{
+	background: bisque;
+	margin: 2%;
+	border-radius: 5%;
+	text-align: center;
+	width: 96%;
+	height: 40%;
+	box-shadow: 1px 1px 1px 1px;
+}
+.right{
+	background: mistyrose;
+	margin: 2%;
+	border-radius: 5%;
+	box-shadow: 1px 1px 1px 1px;
+	width: 92%;
+	padding:2%;
+}
+}
+/*Tab View*/
+@media screen and (min-width: 481px) and (max-width: 580px){
+body{
+	background: aqua;
+}
+.Main{
+	background: bisque;
+	margin: 2%;
+	display: inline-block;
+	justify-content: space-around;
+}
+.left{
+	background: lavender;
+	margin: 3%;
+	border-radius: 5%;
+	width: 94%;
+	height: 40%;
+	text-align: center;
+	box-shadow: 1px 1px 1px 1px;
+}
+.right{
+	background: lightcyan;
+	margin: 3%;
+	border-radius: 5%;
+	box-shadow: 1px 1px 1px 1px;
+	width: 90%;
+	padding:2%;
+}
+}

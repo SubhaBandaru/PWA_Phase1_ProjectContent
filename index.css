@@ -1,0 +1,90 @@
+body{
+	background: pink;
+}
+#MainDiv{
+	background: aqua;
+	display: flex;
+	justify-content: space-around;
+	margin: 3%;
+	border-radius: 5%;
+	width: 92%;
+	height:90;
+	
+}
+.SubDiv{
+	background: yellow;
+	margin: 3%;
+	border-radius: 5%;
+	text-align: center;
+	box-shadow: 4px 4px 4px 4px;
+	width: 92%;
+	height: 90%;
+}
+ .SubDiv img{
+	margin: 2%;
+	border-radius: 5%;
+	height:60%;
+	width:50%;
+
+}
+/*Mobile View*/
+@media screen and (max-width: 480px){
+body{
+	background: bisque;
+}
+#MainDiv{
+	background: skyblue;
+	display: inline-block;
+	justify-content: space-around;
+	margin: 2%;
+	border-radius: 5%;
+	width: 90%;
+	
+}
+.SubDiv{
+	background: mistyrose;
+	margin: 2%;
+	border-radius: 5%;
+	text-align: center;
+	box-shadow: 1px 1px 1px 1px;
+	width: 92%;
+	height: 94%;
+}
+ .SubDiv img{
+	margin: 2%;
+	border-radius: 5%;
+	height:90%;
+	width:85%;
+}
+}
+/*tab View*/
+@media screen and (min-width: 481px) and (max-width: 580px){
+	body{
+	background: bisque;
+}
+#MainDiv{
+	background: lavender;
+	display: inline-block;
+	justify-content: space-around;
+	margin: 2%;
+	border-radius: 5%;
+	width: 90%;
+	
+}
+.SubDiv{
+	background: lightcyan;
+	margin: 3%;
+	border-radius: 5%;
+	text-align: center;
+	box-shadow: 1px 1px 1px 1px;
+	width: 92%;
+	height: 94%;
+}
+ .SubDiv img{
+	margin: 2%;
+	border-radius: 5%;
+	height:90%;
+	width:85%;
+
+}
+}
